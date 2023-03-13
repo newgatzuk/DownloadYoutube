@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-get_ipython().system('pip install pytube')
-
-
-# In[4]:
-
-
 from tkinter import *
 from pytube import YouTube
 from tkinter import filedialog
@@ -75,10 +63,3 @@ Button(quadro, bg='blue', text='>>>', font='arial 9 bold' , bd=2, fg='white', he
 
 #deixar a janela aberta por tempo indefinido
 janela.mainloop()
-
-
-# In[ ]:
-
-
-
-
